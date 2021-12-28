@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Backoffice</title>
 </head>
 <body>
-    <form action='http://localhost:3000/arquivo' method="post" encType="multipart/form-data">
-        <p><label for="file">Nome do Usuário</label></p>
-        <input type="text">
-        <p><label for="file">Arquivo</label></p>
-        <input type="file" name="file" id="file" multiple>
-        <br>
-        <input type="submit" value="Enviar">
-    </form>
+    <div class="card">
+        <form action='http://100.26.99.250/arquivo' method="post" encType="multipart/form-data">
+            <p><label for="file">Nome do Usuário</label></p>
+            <input type="text">
+            <p><label for="file">Arquivo</label></p>
+            <input type="file" name="file" id="file" multiple>
+            <br>
+            <input class="button" type="submit" value="Enviar">
+        </form>
+    </div>
+    <hr>
 </body>
 </html>
