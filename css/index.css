@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+
+}
+
+.card {  
+    border: solid 1px #CCC;
+    box-shadow: 0 4px 20px 0 rgba(128, 78, 78, 0.3);
+    height: auto;
+    width: auto;
+    margin: 5px 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+p { 
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.button {
+    margin-top: 5px;
+    background-color: #114556;
+    border-radius: 4px;
+    width: auto;
+
+}

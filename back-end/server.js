@@ -20,6 +20,6 @@ const type = upload.single('file');
 app.get('/post', (req, res) => res.send('ok'))
 
 app.post('/arquivo', type ,
-    (req,res) => res.send('<h2>Upload Realizado com sucesso</h2>'))
+    (req,res) => res.status(200))
 
 app.listen(3000, () => console.log('App na porta 3000'));
